@@ -8,7 +8,7 @@ public int maxProfit(int[] prices) {
 //         for (int buy = 0; buy<prices.length; buy++){
 //             for (int sell = buy +1 ; sell < prices.length; sell ++){
 //                 int difference = (prices[sell] - prices[buy]);
-                
+               
 //                 if (difference > profit){
 //                     profit = difference ;
 //                 }

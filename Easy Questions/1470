@@ -1,0 +1,25 @@
+public int[] shuffle(int[] nums, int n) {
+        
+        /*
+        Make the two pointer - One starts at the index = 0 and another start at the index given.
+        Second pointer will add at = n-(n-1) +i
+     */
+     
+        int [] neww = new int[nums.length];
+        neww[0] = nums[0];
+        int counter =0;
+        for (int i =1; i< n; i++){
+    
+            counter ++;
+            neww[i+counter] = nums[i];
+            
+        }
+        counter = 0;
+        
+        for (int i =n ; i< nums.length ; i++){
+            neww[i-(n-1) + counter] = nums[i];
+            counter++;
+        }
+        return neww;
+    }
+}

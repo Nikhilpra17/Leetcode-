@@ -20,6 +20,16 @@ public int[] shuffle(int[] nums, int n) {
             neww[i-(n-1) + counter] = nums[i];
             counter++;
         }
+        
+        /* 
+        Good Approach
+        for (int i =0 ; i<n ; i++){
+        neww[i*2] = nums[i];
+        neww[i*2+1] = nums[i+n];
+        }
+        */
+        
+        
         return neww;
     }
 }

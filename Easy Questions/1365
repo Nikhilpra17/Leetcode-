@@ -1,5 +1,7 @@
  public int[] smallerNumbersThanCurrent(int[] nums) {
         
+        // Optimized Sol with TC - O(N) and SC - O(N) 
+        
         int [] resu = new int[101];
         int [] retur = new int[nums.length];
         
@@ -34,22 +36,24 @@
         
         return retur;
         
+        // Brute Force Approach with TC - O(N^2) and SC - O(1)
         
-//         int [] resu = new int[nums.length];
         
-//         for (int i = 0; i< nums.length ; i++){
-//             int counter =0;
-//             for (int k = 0; k <nums.length; k ++){
-//                if (nums[i] > nums[k]){
-//                    counter++;
-//                }
-//             }
-//                 resu[i] = counter;
+         int [] resu = new int[nums.length];
+        
+         for (int i = 0; i< nums.length ; i++){
+             int counter =0;
+             for (int k = 0; k <nums.length; k ++){
+                if (nums[i] > nums[k]){
+                    counter++;
+                }
+             }
+                 resu[i] = counter;
             
-//         }
+         }
         
         
-//         return resu;
+         return resu;
         
         
     }

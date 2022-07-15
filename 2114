@@ -1,3 +1,6 @@
+ // Logic  - Traverse on each string and count the number of blank between the words
+ // return the counter +1 (to include the last word which end without having space to the end .)
+ 
  public int mostWordsFound(String[] sentences) {
         int countfinal =0;
         

@@ -1,0 +1,18 @@
+ public int mostWordsFound(String[] sentences) {
+        int countfinal =0;
+        
+        int counter =0;
+        
+        for (String s : sentences){
+            for (int i = 0; i< s.length(); i++){
+                if (s.charAt(i) == ' '){
+                    counter++;
+                }
+            }
+            if (countfinal < counter){
+                countfinal = counter;
+            }
+            counter =0;
+        }
+        return countfinal +1;
+    }

@@ -1,0 +1,41 @@
+class Solution {
+    public int[] numberOfPairs(int[] nums) {
+        int pair =0;
+        int []returnp = new int[2];
+        int reamind = 0;
+        HashMap<Integer,Integer> hp = new HashMap<Integer,Integer>();
+        
+        for (int i = 0; i< nums.length; i++){
+            if (hp.containsKey(nums[i])){
+                hp.put(nums[i], hp.get(nums[i]) +1);
+            } else{
+                hp.put(nums[i], 1);
+            }
+            
+        }
+        
+        for (int i = 0; i< nums.length; i++){
+            int vaue=0;
+            if (hp.containsKey(nums[i])){
+                vaue = hp.get(nums[i]);
+            }
+            pair += vaue/2;
+            
+            if ( vaue%2 ==1){
+            int remainder = vaue;
+                reamind ++;
+            }
+            
+            hp.remove(nums[i]);
+            
+            
+        }
+        
+        returnp[0] = pair;
+                returnp[1] = reamind;
+        
+        
+        return returnp;
+        
+    }
+}

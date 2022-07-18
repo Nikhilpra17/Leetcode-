@@ -1,9 +1,8 @@
 class Solution {
     public int sumOddLengthSubarrays(int[] arr) {
         
-        //  Make the subarrays
-        // Check the length of the of subarray using remainder when divide by 2
-        // If they are odd, sum ++
+        //  TC - O(N)
+        
         int sum =0;
         int length = arr.length;
         

@@ -1,4 +1,8 @@
 class Solution {
+
+// Solution is same for (724. Find Pivot Index)
+
+
     public int findMiddleIndex(int[] nums) {
         int resu = -1;
         

@@ -1,4 +1,7 @@
 class Solution {
+
+// TC = O(N) and SC = O(N) (Could be done in O(1) if the lefta nd right array done in same answer array and return the same);
+
     public int[] productExceptSelf(int[] nums) {
         int [] left = new int[nums.length];
         

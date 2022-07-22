@@ -1,0 +1,20 @@
+class Solution {
+    
+    // 10 ------ 6      range - 5  ---- value = 7,9
+    // 10 ------ 5      range - 6  ---- value = 5,7,9
+    // 11 ------ 6      range - 6  ---- value = 7,9,11
+    // 11 ------ 5      range - 7  ---- value = 5,7,9,11
+    
+    
+    public int countOdds(int low, int high) {
+        int ans;
+        int range = (high-low)+1;
+        
+        if (low %2 != 0 && high %2 != 0){
+            ans = (range +1 )/2;
+        }else{
+          ans =  (range) /2;
+        }
+        return ans;
+    }
+}

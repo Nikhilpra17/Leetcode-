@@ -1,1 +1,23 @@
+class Solution {
 
+// As int in non-iterable, so fetching digit by digit and making reverse number
+// Then comparing it with target;
+
+    public boolean isPalindrome(int x) {
+        int num = 0;
+        int target = x;
+        
+        while (x>0){
+            int temp = x%10;
+            num = num*10 + temp;
+            x = x/10;
+            
+        }
+        
+        if (num == target){
+            return true;
+        } else {
+            return false;
+        }
+    }
+}

@@ -1,0 +1,50 @@
+class Solution {
+    public boolean isAnagram(String s, String t) {
+        
+        if (s.length() != t.length()){
+            return false;
+        }
+        
+        int [] check = new int[26];
+        
+        for (int i =0; i< s.length(); i++){
+            check[s.charAt(i) - 'a'] ++;
+        }
+        
+         for (int i =0; i< t.length(); i++){
+            check[t.charAt(i) - 'a'] --;
+        }
+        
+        for (int i =0; i< check.length; i++){
+            if (check[i] > 0){
+                return false;
+            }
+        }
+        return true;
+        
+        
+        // NEED TO CHECK
+        
+//       HashMap <Character, Integer> check = new HashMap<>();
+//         for (int i =0 ; i< s.length(); i++) {
+//         	if (check.containsKey(s.charAt(i))) {
+//         		check.put(s.charAt(i), check.get(s.charAt(i))+ 1);
+//         	} else {
+//         		check.put(s.charAt(i), 1);
+//         	}
+//         }
+        
+//         for (int i =0 ; i<t.length(); i++ ) {
+//         	if (check.containsKey(t.charAt(i))) {
+//         		check.put(t.charAt(i), check.get(t.charAt(i)) - 1);
+//         	} else {
+//         		return false;
+//         	}
+//         }
+        
+//         if (check.values() != null) {
+//         	return false;
+//         }
+//         return true;
+    }
+}

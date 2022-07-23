@@ -23,7 +23,8 @@ class Solution {
         return true;
         
         
-        // NEED TO CHECK
+        // NEED TO CHECK -- Element and its frequency added to the HashMap
+        // Problem in check the value which is greater than Zero
         
 //       HashMap <Character, Integer> check = new HashMap<>();
 //         for (int i =0 ; i< s.length(); i++) {

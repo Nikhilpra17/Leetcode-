@@ -1,3 +1,4 @@
-***To check Letter and digit in the String :***
-!(https://user-images.githubusercontent.com/97670140/180602235-cee41b78-8763-42d8-91df-91b6129c8088.png)
+***To check Letter and digit in the String :***<br>
+!![image](https://user-images.githubusercontent.com/97670140/180602296-3f0652b8-642a-42b7-96dc-94fab75dbfa6.png)
+
 ___

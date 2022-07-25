@@ -25,6 +25,8 @@ class Solution {
         return sum ;
     }
     
+    // Switch case is Used to store the values
+    
       private int getvalue(char c){
         switch(c){
                 case 'I' : return 1;

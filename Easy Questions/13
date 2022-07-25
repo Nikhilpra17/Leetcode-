@@ -1,0 +1,21 @@
+class Solution {
+    public int romanToInt(String s) {
+        
+        int sum = getvalue(s.charAt(s.length() -1));
+        
+        for (int i =s.length() -2; i>= 0; i--){   // "MCMXCIV"  =  1994
+            // int tt = getvalue(s.charAt(i));
+            if (getvalue(s.charAt(i)) >= getvalue(s.charAt(i+1))){
+                sum += getvalue(s.charAt(i));
+            }else{
+                sum -= getvalue(s.charAt(i));    
+            }
+        
+    }
+       
+        return sum ;
+    }
+                                
+                                
+    
+  

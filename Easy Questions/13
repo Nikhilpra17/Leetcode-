@@ -1,5 +1,14 @@
 class Solution {
     public int romanToInt(String s) {
+    
+     /* 
+        Simple Logic 
+        
+        # Start from Right end (Fundamental rule of writing number)
+        # Check the number (i) is greater or smaller than preceded number(i+1) (As Started from Right to left)
+        # If it (i) is greater than preceded number then add to the total sum , else subtract from the total.
+        
+        */
         
         int sum = getvalue(s.charAt(s.length() -1));
         

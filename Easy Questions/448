@@ -1,0 +1,28 @@
+class Solution {
+    public List<Integer> findDisappearedNumbers(int[] nums) {
+        
+        List <Integer> hp = new ArrayList<>();
+        int idx = -1;
+        
+        for (int i = 0; i< nums.length; i++){
+            if (nums[i]<0){
+                int tt = Math.abs(nums[i])-1;
+                if (nums[tt]>0){
+                nums[tt] =  nums[tt] * idx ;
+                }
+            } else {
+                int t = nums[i] -1 ;
+                if (nums[t]>0){
+                nums[t] =  nums[t] * idx ;
+                }
+            }
+        }
+        
+        for (int i = 0; i< nums.length ; i ++){
+            if (nums[i] > 0){
+                hp.add(i+1);
+            }
+        }
+        return hp;
+    }
+}

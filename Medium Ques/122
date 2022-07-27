@@ -1,0 +1,29 @@
+class Solution {
+    public int maxProfit(int[] prices) {
+        int buymini = Integer.MAX_VALUE;
+        int sellmax = 0;
+        
+        int profit = 0;
+        
+        for (int i =0; i < prices.length; i++){
+            if (prices[i] < buymini){
+                buymini = prices[i];
+                sellmax = 0;
+            }else {
+                sellmax = prices[i];
+            }
+            
+            int diff = sellmax - buymini ;
+            
+
+            
+            if (diff > 0 ){
+                profit += diff;
+                buymini = prices[i];
+                sellmax = 0;
+            }
+        }
+    
+        return profit;
+    }
+}

@@ -1,6 +1,8 @@
 class Solution {
     public List<Integer> findDisappearedNumbers(int[] nums) {
         
+        // For marking we did my Applying logic oof marking out at the index and returing the unmarked index as the answer
+        
         List <Integer> hp = new ArrayList<>();
         int idx = -1;
         

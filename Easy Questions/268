@@ -1,0 +1,28 @@
+class Solution {
+    public int missingNumber(int[] nums) {
+        
+   // XOR SOLUTION
+        
+        int res = nums.length;
+        for (int i = 0 ; i < nums.length; i++){
+            res ^= i ;
+            res ^= nums[i];
+        }
+        
+        return res;
+        
+        
+        // MATHS SOLUTION
+        
+//         int length = nums.length;
+//         int sum = ((1+length)*(length))/2 ;
+        
+//         int resu = sum ;
+        
+//         for (int i = 0 ; i<nums.length; i++){
+//             resu -= nums[i];
+//         }
+        
+//         return resu;
+    }
+}

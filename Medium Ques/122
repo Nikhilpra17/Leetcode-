@@ -15,7 +15,8 @@ class Solution {
             
             int diff = sellmax - buymini ;
             
-
+            // When diff is greater than 0, add it to profit
+            // Make current index (sellmax) equals to buymini so that you didnt left out any vacancy
             
             if (diff > 0 ){
                 profit += diff;

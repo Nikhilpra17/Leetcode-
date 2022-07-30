@@ -1,0 +1,19 @@
+class Solution {
+    public int[] countBits(int n) {
+        int [] pop  = new int[n+1];
+        
+        for (int i = 0; i<pop.length; i++){
+        pop[i] = countone(i);            
+        }
+        return pop;
+    }
+    
+    public int countone(int value){
+        int count =0;
+        while (value > 0){
+            count += value % 2;
+            value = value /2 ;
+        }
+        return count;
+    }
+}

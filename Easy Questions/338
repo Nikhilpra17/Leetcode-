@@ -8,6 +8,10 @@ class Solution {
         return pop;
     }
     
+    
+    // Function for count the digit after converting it into binary numbers
+    
+    
     public int countone(int value){
         int count =0;
         while (value > 0){

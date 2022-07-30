@@ -1,0 +1,40 @@
+class Solution {
+    public ListNode middleNode(ListNode head) {
+//         ListNode temp = head;
+//         int count = 0;
+        
+//         if (temp.next == null){
+//             return temp;
+//         }
+        
+//         while(temp != null && temp.next != null){
+//             count ++;    
+//         }
+        
+//         int half;
+//         if (count %2 ==0){
+//             half = (count/2) +1;
+//         }else{
+//             half = (count + 1)/2 ;
+//         }
+        
+//         ListNode test = head;
+        
+//         for (int i =0 ; i< half ; i++){
+//             test= test.next;
+//         }
+        
+//         return test;
+        
+        ListNode slow = head;
+        ListNode fast = head;
+        
+        while (fast != null && fast.next != null){
+            fast = fast.next.next ;
+            slow = slow.next;
+        }
+        return slow;
+        
+        
+    }
+}

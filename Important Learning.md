@@ -14,5 +14,7 @@ ___
 ![image](https://user-images.githubusercontent.com/97670140/181424950-bf88b424-81fd-4e4b-aca9-23d666a607b0.png)
 ___
 
+***Make Linked List with Variable Type*** <br>
+
 ![image](https://user-images.githubusercontent.com/97670140/182025008-1f5de9a7-2af4-48d0-9de5-e557644d6213.png)
 ___

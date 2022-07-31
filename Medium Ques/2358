@@ -1,0 +1,22 @@
+class Solution {
+    public int maximumGroups(int[] grades) {
+        
+        // Sorting is done so that every group formed should have higher value than the previous group
+        // Eg = [4,8,3,6,7,4,1,14,2,10] -> After Sorting = [1,2,3,4,4,6,7,8,10,14]
+        // Max group can be formed if length is 10 = 4 (Refer Line 25)
+        // [1] [2,3] [4,4,6] [7,8,10,14]
+        
+        
+        Arrays.sort(grades);
+        
+        int len = grades.length;
+        
+        // If the length is 1 , then 1 is the only group
+        
+        if (len ==1 && grades[0] != 0){
+            return 1;
+        }
+        
+        int possible = possiblegroup(len);
+        return possible;
+    }

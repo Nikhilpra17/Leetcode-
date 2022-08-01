@@ -31,6 +31,8 @@ class Solution {
         return slow;
     }
     
+    // Reversing the Linked List
+    
     public ListNode reverse(ListNode head){
         ListNode prev = null;
         ListNode current = head;

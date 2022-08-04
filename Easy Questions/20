@@ -38,3 +38,7 @@ class Solution {
         
         return hp.isEmpty();
     }
+     public boolean isMatching(char a, char b){
+		return (a == '(' && b == ')') || (a == '[' && b == ']') || (a == '{' && b == '}') ;
+	}
+    }

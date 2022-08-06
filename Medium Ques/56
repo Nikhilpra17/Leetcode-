@@ -26,3 +26,7 @@ class Solution {
 		           }
 		          i++;
 		       }
+		        ans.add(new int[] {start,end});
+		   	
+		   
+	        

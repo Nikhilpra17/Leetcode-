@@ -1,4 +1,7 @@
 class Solution {
+
+Using Moore's Voting Algorithm
+
     public int majorityElement(int[] nums) {
         
         int count = 0;

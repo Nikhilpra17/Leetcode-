@@ -27,6 +27,9 @@ class Solution {
         int ans = finalcount/2 ;
         
         return value;
+        
+        ***Using hashMap***
+        
           /*
         int count = 0;
         

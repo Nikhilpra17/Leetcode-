@@ -25,3 +25,8 @@ ___
 ![image](https://user-images.githubusercontent.com/97670140/183289024-8620d68e-3aef-4e12-a573-dd52bb5f8526.png)
 
 ___
+***Binary Search Implication Condition*** <br>
+- When the array is sorted
+- When the distribution done in Contiguous manner
+
+___

@@ -30,3 +30,8 @@ ___
 - When the distribution done in Contiguous manner
 
 ___
+
+***Advance usage of for Loop*** <br>
+![image](https://user-images.githubusercontent.com/97670140/183578676-072216b9-6979-4859-b2d6-14016e974ebd.png)
+
+___

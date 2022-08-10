@@ -1,26 +1,36 @@
 class MedianFinder {
+        
+    // Intialize the heaps;
     
         PriorityQueue <Integer> maxheap; 
         PriorityQueue <Integer> minheap ;
     
     public MedianFinder() {
-        maxheap = new PriorityQueue<>(Collections.reverseOrder());
-        minheap = new PriorityQueue<>();
+        maxheap = new PriorityQueue<>(Collections.reverseOrder());   // Max Heap or Upper part heap from median 
+        minheap = new PriorityQueue<>();       // Min Heap or Lower Part heap from median
     }
     
     public void addNum(int num) {
+        
+        // if maxheap is empty - fill  it first on priority 
+        // Because for eg - In stating both heap are empty ; If one value has to add, maxheap will return the same as median
+        // If num is max then the number in maxheap , will be added to  min heap 
+        
         if (maxheap.isEmpty() || maxheap.peek()> num){
             maxheap.add(num);
         } else {
             minheap.add(num);
         }
         
-        if(maxheap.size()> minheap.size() +1){
-            minheap.add(maxheap.poll());
-        } else if (maxheap.size() < minheap.size()){
-            maxheap.add(minheap.poll());
+        // Balancing the heaps 
+        
+        if(maxheap.size()> minheap.size() +1){   // for eg maxheap = [1,2,3,4] and minheap = [5,6]
+            minheap.add(maxheap.poll());         // then 4 to be added to  minheap from maxheap
+        } else if (maxheap.size() < minheap.size()){  // for eg Maxheap = [1,2,3,4] and minheap = [5,6,7,8,9]
+            maxheap.add(minheap.poll());              //  then 5 to be added to maxheap from minheap
         }
-          }
+        
+    }
     
     public double findMedian() {
         if (maxheap.size() == minheap.size()){
@@ -30,5 +40,4 @@ class MedianFinder {
         }
     }
 }
-        
-  
+

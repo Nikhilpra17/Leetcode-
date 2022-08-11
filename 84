@@ -1,0 +1,17 @@
+class Solution {
+    public int largestRectangleArea(int[] heights) {
+        int higharea = 0;
+        int [] binx, ainx = new int [heights.length];
+        binx = previous(heights);
+        ainx = afterward(heights);
+        
+        for (int i = 0; i< heights.length ; i++){
+            int ti = (ainx[i] - binx[i] -1)* heights[i];
+            if (ti > higharea){
+                higharea = ti;
+            }
+        }
+        
+        return higharea;
+        
+    }

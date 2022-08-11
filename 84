@@ -32,4 +32,24 @@ class Solution {
         }
         return before;
     }
+     
+    public int[] afterward(int[] heights){
+        int [] after = new int[heights.length];
+        Stack <Integer> a = new Stack<>();
+        
+        for (int i = heights.length -1 ; i >=0 ; i--){
+            while (! a.isEmpty() && heights[a.peek()] >= heights[i]){
+                a.pop();
+            }
+            
+            if (a.isEmpty()){
+                after[i] = heights.length;
+            } else{
+                after[i] = a.peek();
+            }
+            a.push(i);
+        }
+        return after;
+    }
+}
     

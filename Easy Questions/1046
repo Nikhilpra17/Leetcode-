@@ -5,5 +5,17 @@ class Solution {
         for (int i = 0; i< stones.length ; i++){
             po.add(stones[i]);
         }
+         while (po.size() > 1) {
+        int  p = po.poll();
+        int k = po.poll();
+        
+        int t = p-k;
+        po.add(t);
+    }
+        int k = po.peek();
+        
+        return k;
+	}
+}
         
        

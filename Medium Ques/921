@@ -1,0 +1,28 @@
+ public int minAddToMakeValid(String s) {
+        int length = s.length();
+        int len = countpair(s);
+        
+        int ans = length - len;
+        return ans;
+    }
+    
+    public int countpair (String s){
+        Stack<Character> p = new Stack<>();
+        int count =0;
+        
+         for (int i = 0 ; i < s.length(); i++){
+             if (s.charAt(i) == '('){
+                 p.push(s.charAt(i));
+             }
+             else{
+                 if (! p.isEmpty()){
+                     count = count +2;
+                     p.pop();
+                 }
+                 
+             }
+         }
+        return count;
+    }
+    
+}

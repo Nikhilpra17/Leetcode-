@@ -1,3 +1,17 @@
+ class Solution {
+    
+    /*
+    
+    Logic  - Check the Complete Pairs in the String and subtract it from the String length.
+    Remaining will be the single incomplete pairs.
+    
+    For eg - " (((()))"
+    No of pairs - (),(),() = 3;
+    Unpaired = Total Length - pairs = 7 - 3(*2) = 1       (*2 - Because one Pair has two character)
+    
+    
+    */
+    
  public int minAddToMakeValid(String s) {
         int length = s.length();
         int len = countpair(s);

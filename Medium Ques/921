@@ -7,8 +7,7 @@
     
     For eg - " (((()))"
     No of pairs - (),(),() = 3;
-    Unpaired = Total Length - pairs = 7 - 3(*2) = 1       (*2 - Because one Pair has two character)
-    
+    Unpaired = Total Length - pairs = 7 - 3(*2) = 1       (*2 - Because one Pair has two character
     
     */
     

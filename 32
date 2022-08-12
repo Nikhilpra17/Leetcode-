@@ -6,4 +6,24 @@ class Solution {
         int op = 0;
         
         ind.push(-1);
-        
+       for (int i = 0 ; i< s.length(); i++){
+            if (s.charAt(i) == '('){
+                cha.push(s.charAt(i));
+                ind.push(i);
+            } else {
+                if (!cha.isEmpty()){
+                    ind.pop();
+                    op = i - ind.peek() ;
+                    cha.pop();
+                    
+                } else {
+                    ind.push(i);
+                }
+            }
+            if (op > ans){
+                ans = op;
+            }
+        }
+        return ans;
+    }
+} 

@@ -38,3 +38,6 @@ ___
 ***Iterator in ArrayList*** <br>
 ![image](https://user-images.githubusercontent.com/97670140/183990885-bd62e4f2-7b2e-436d-89a7-a8ee3c1418e3.png)
 ___
+![image](https://user-images.githubusercontent.com/97670140/184473366-aec4d286-81d8-4497-80a3-f84045159f55.png)
+
+___

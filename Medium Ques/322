@@ -22,3 +22,16 @@ class Solution {
         }
         
         int minimum = Integer.MAX_VALUE;
+        
+         for (int coin : coins){
+            int changeResult = coinChange(coins, remainder - coin , dp);
+            
+                
+                if (changeResult >= 0 && changeResult < minimum){
+                    minimum = changeResult +1 ;
+                }
+        }
+        dp[remainder] = (minimum==Integer.MAX_VALUE) ? -1 : minimum;
+        return dp[remainder];
+    }
+}

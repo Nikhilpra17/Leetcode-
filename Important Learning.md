@@ -41,3 +41,8 @@ ___
 ![image](https://user-images.githubusercontent.com/97670140/184473366-aec4d286-81d8-4497-80a3-f84045159f55.png)
 
 ___
+
+***Loop using Stream*** <br>
+![image](https://user-images.githubusercontent.com/97670140/184821825-e1e00478-976c-4549-bdf0-aa49a4f506f1.png)
+
+____

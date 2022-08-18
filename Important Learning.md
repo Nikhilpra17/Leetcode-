@@ -46,5 +46,6 @@ ___
 ![image](https://user-images.githubusercontent.com/97670140/184821825-e1e00478-976c-4549-bdf0-aa49a4f506f1.png)
 
 ____
-***to String Method  :
+***to String Method  :*** <br>
 ![image](https://user-images.githubusercontent.com/97670140/185342677-53e8a0b9-3ad5-4c5b-9399-b208bd613054.png)
+![image](https://user-images.githubusercontent.com/97670140/185342993-9c604187-04be-41b8-b281-7c89a4b609c2.png)

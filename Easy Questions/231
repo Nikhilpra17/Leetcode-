@@ -1,0 +1,13 @@
+class Solution {
+    public boolean isPowerOfTwo(int n) {
+       boolean op = check(n);
+        return op;
+    }
+    
+    public static boolean check(int n){
+        if (n == 1) {
+            return true;
+        }
+    if (n==0){
+        return false;
+    }

@@ -1,0 +1,17 @@
+class Solution {
+    public int numberOfSteps(int num) {
+        
+        int pop = counter(num);
+        
+        return pop;
+    }
+    
+    public static int counter(int num){
+        return helper(num, 0);
+            
+    }
+    
+    public static int helper(int num , int count){
+        if (num == 0){
+            return count;
+        }

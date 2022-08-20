@@ -54,3 +54,5 @@ ___
 ![image](https://user-images.githubusercontent.com/97670140/185415859-a421e111-e428-40d0-9bd5-0cc004affa22.png)
 
 ___
+***Protected Access Modifier***<br>
+![image](https://user-images.githubusercontent.com/97670140/185731579-a6f3160d-cfc7-424f-98d8-3b999b40e74a.png)

@@ -11,4 +11,19 @@ class Solution {
         
         return sequence(text1.length(), text1, text2.length(), text2, dp);
     }
-    
+    private static int sequence(int m, String a, int n, String b, int [][]dp){
+        if (m ==0 || n ==0){
+            return 0;
+        }
+        
+        if (dp[m][n] != -1){
+            return dp[m][n];
+        }
+        
+        if (a.charAt(m-1) == b.charAt(n-1)){
+            return dp[m][n] = 1 + sequence(m-1, a, n-1 , b, dp); 
+        } else {
+            return dp[m][n] =  Math.max(sequence(m, a, n-1 , b,dp), sequence(m-1, a, n , b, dp));
+        }
+    } 
+}

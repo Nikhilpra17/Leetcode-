@@ -19,3 +19,7 @@ private Stack<Integer> pop;
         minStack.pop();
         
     }
+ public int top() {
+        return  pop.peek();
+        
+    }

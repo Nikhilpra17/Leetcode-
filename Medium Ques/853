@@ -17,3 +17,19 @@ class Solution {
             combine[i][0] = position[i];
             combine[i][1] = speed[i];
         }
+Arrays.sort(combine, java.util.Comparator.comparingInt(o -> o[0]));
+        
+        
+        for (int i = combine.length -1; i>= 0 ; i--){
+            double currentTime = (double)(target - combine[i][0])/ combine[i][1] ;
+            
+            if (!s.isEmpty() && currentTime <= s.peek()){
+                continue;
+            } else{
+                s.push(currentTime);
+            }
+        }
+        
+        return s.size();
+    }
+}

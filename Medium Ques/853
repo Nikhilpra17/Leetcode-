@@ -1,0 +1,19 @@
+class Solution {
+    public int carFleet(int target, int[] position, int[] speed) {
+        
+        /*
+        1- Sort the position array  
+        2- Make the stack and add to it
+        3- Check time is less then exiting then remove it from array 
+        
+        */
+        if (position.length == 1){
+            return 1;
+        }
+        
+        Stack<Double> s = new Stack<>();
+        int [][] combine = new int[position.length][2];
+        for (int i =0 ; i< position.length; i++){
+            combine[i][0] = position[i];
+            combine[i][1] = speed[i];
+        }

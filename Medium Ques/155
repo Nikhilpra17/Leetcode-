@@ -23,3 +23,7 @@ private Stack<Integer> pop;
         return  pop.peek();
         
     }
+ public int getMin() {
+        return minStack.peek();
+    }
+}

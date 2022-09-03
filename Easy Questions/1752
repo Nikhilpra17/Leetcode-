@@ -1,4 +1,13 @@
 class Solution {
     public boolean check(int[] nums) {
         
+     // Putting a counter check - When there is negative value more than once in difference of adjacent index , return FALSE;
+        // For eg -  1,2,3,4,5 - Counter will be one ( when , 1-5) (Check till rotated array i.e till index 0); return TRUE
+        // For eg - 4,5,6,1,2,3 - Counter will be one ( when , 1-6); return TRUE
+        // For eg - 7 9 2 4 1 - Counter will be two (when , 2-9 and 1-4); return FALSE
         
+        if (nums.length < 2) {
+            return true;
+        }
+        
+      

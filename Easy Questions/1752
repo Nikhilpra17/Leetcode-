@@ -19,3 +19,16 @@ class Solution {
            if (nums[modu] - nums[i] >=0){
                i ++ ;
            }
+                       else if ((nums[modu] - nums[i] < 0)){
+                counter ++;
+                if (counter > 1){
+                    return false;
+                }
+                i++;
+            }
+        }
+        return true;
+    }
+}   
+
+

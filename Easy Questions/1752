@@ -10,4 +10,12 @@ class Solution {
             return true;
         }
         
-      
+        int counter = 0;
+        int rotate = nums.length;
+        int i = 0;
+        
+        while ( i <= rotate-1){
+            int modu = (i+1) % rotate;
+           if (nums[modu] - nums[i] >=0){
+               i ++ ;
+           }

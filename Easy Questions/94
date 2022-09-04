@@ -20,3 +20,13 @@ class Solution {
         inOrder(root, ans);
         return ans;
     }
+
+private void inOrder(TreeNode node, List<Integer> list){
+        if (node != null){
+            inOrder(node.left, list);
+            list.add(node.val);
+            inOrder(node.right, list);
+        }
+    }
+}
+

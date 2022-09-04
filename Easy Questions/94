@@ -13,3 +13,10 @@
  *     }
  * }
  */
+
+class Solution {
+    public List<Integer> inorderTraversal(TreeNode root) {
+        ArrayList<Integer> ans = new ArrayList<>();
+        inOrder(root, ans);
+        return ans;
+    }

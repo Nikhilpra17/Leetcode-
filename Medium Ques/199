@@ -34,4 +34,7 @@
             list.add(root.val);   
         }
         
- 
+        printRightView(root.right, list, level+1);
+        printRightView(root.left, list, level+1);
+    }
+}

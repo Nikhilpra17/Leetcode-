@@ -14,4 +14,15 @@
  * }
  */
  
- 
+ class Solution {
+    public List<Integer> rightSideView(TreeNode root) {
+        
+        ArrayList<Integer> arr = new ArrayList<>();
+        
+        printRightView(root, arr, 0);
+            
+            return arr;
+    }
+    
+    
+    

@@ -25,4 +25,13 @@
     }
     
     
-    
+     public static void printRightView(TreeNode root , ArrayList list, int level){
+        if (root == null){
+            return;
+        }
+        
+        if(level == list.size()){
+            list.add(root.val);   
+        }
+        
+ 

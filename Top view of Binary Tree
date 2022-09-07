@@ -48,5 +48,16 @@ class Solution
 		}
 		return ans;
 	}
-	
+	public static class pair{
+		int hd;
+		Node node;
+		
+		public pair(int hd, Node node){
+			this.hd = hd;
+			this.node = node;
+	}
+}
+}
+
+
 	

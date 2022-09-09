@@ -27,4 +27,18 @@ class Solution {
         ListNode ori = head;
         
         
- 
+        int diff = counter - n + 1;
+        if (diff == 1){
+            ori = ori.next;
+            return ori;
+        }
+        
+        int count = 1;
+        
+        
+        while ( (diff-1) != count ){
+            count ++;
+            ori = ori.next;
+        }
+        
+       

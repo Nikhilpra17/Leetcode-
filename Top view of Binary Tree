@@ -5,7 +5,7 @@ class Solution
 
 		class Node
 		{
-			int data;			// data field
+			int data;	// data field
 			Node left, right;	// pointer to the left and right child
 
 			Node() {}

@@ -2,7 +2,6 @@ class Solution
 {
 	/*
 		A binary tree node is defined as:
-
 		class Node
 		{
 			int data;	// data field

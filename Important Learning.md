@@ -67,4 +67,5 @@ ___
 
 ___
 
-***If an elemnt is presnt at index i, that element will be added in all index greater than that in prefic sum array
+***If an elemnt is presnt at index i, that element will be added in all index greater than that in prefix sum array***
+

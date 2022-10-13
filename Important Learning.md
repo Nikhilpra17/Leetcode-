@@ -27,7 +27,7 @@ ___
 ___
 ***Binary Search Implication Condition*** <br>
 - When the array is sorted
-- When the distribution done in Contiguous manner
+- When the distribution done in Contiguous manner 
 
 ___
 

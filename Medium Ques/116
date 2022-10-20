@@ -37,4 +37,8 @@ Node temp22 = root;
                 }
                 temp = temp.next;
             }
-          
+            temp22 = temp22.left;
+        }
+        return root;
+    }
+}

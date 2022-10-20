@@ -27,3 +27,14 @@ class Solution {
             return null;
         }
         
+Node temp22 = root;
+        while (temp22.left != null){
+            Node temp = temp22;
+            while (temp != null){
+                temp.left.next = temp.right;
+                if (temp.next != null){
+                temp.right.next = temp.next.left;
+                }
+                temp = temp.next;
+            }
+          

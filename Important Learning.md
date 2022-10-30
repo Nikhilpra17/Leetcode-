@@ -68,7 +68,7 @@ ___
 ___
 
 ***If an elemnt is presnt at index i, that element will be added in all index greater than that in prefix sum array***
-![image](https://user-images.githubusercontent.com/97670140/193308106-a9220baf-1788-47f5-bfa0-a696bdd7fa1b.png)
+![image](https://user-images.githubusercontent.com/97670140/193308106-a9220baf-1788-47f5-bfa0-a696bdd7fa1b.png) 
 
 <br>
 ____

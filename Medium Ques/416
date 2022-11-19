@@ -40,3 +40,6 @@ class Solution {
                 }
             }
         }
+      return dp[n][range];
+    }
+}

@@ -13,7 +13,6 @@ class Solution {
         }
        
         return higharea;
-  
     }
      public int[] previous(int[] heights){
         int[] before = new int[heights.length];

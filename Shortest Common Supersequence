@@ -1,0 +1,13 @@
+class Solution
+{
+    //Function to find length of shortest common supersequence of two strings.
+    public static int shortestCommonSupersequence(String X,String Y,int m,int n)
+    {
+        //Your code here
+        int val = LCS(X,Y,m,n);
+        
+        int ans = m +n -val ;
+        
+        return ans;
+        
+    }

@@ -1,0 +1,16 @@
+class Solution {
+    public int minInsertions(String s) {
+        int val = longestPalindromeSubseq(s);
+        
+        int len = s.length();
+        
+        return len - val;
+    }
+    
+    public int longestPalindromeSubseq(String s) {
+     String test = reverse(s);
+        int len = s.length();
+        
+        return LCS(s, len, test, len);
+        
+    }

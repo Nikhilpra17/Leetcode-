@@ -1,0 +1,5 @@
+class Solution {
+    public int[] replaceElements(int[] arr) {
+        int ans[] = new int[arr.length] ; 
+        
+        int max = -1 ;

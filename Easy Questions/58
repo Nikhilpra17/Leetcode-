@@ -6,3 +6,12 @@ class Solution {
             if (s.charAt(i) != ' ' ){
                 len++;
             }
+            else {
+                if (len > 0){
+                    return len;
+                }
+            }
+    }
+        return len;
+}
+}

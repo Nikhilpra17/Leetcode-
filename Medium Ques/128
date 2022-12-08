@@ -6,3 +6,13 @@ class Solution {
         for (int i = 0 ; i < nums.length ; i ++){
             hs.add(nums[i]);
         }
+        
+          for (int i = 0 ; i < nums.length ; i ++){
+            int count = 1;
+            
+            int num= nums[i];
+            
+            while (hs.contains(--num)){
+                count ++;
+                hs.remove(num);
+            }

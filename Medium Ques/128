@@ -16,3 +16,12 @@ class Solution {
                 count ++;
                 hs.remove(num);
             }
+         num = nums[i];
+            
+            while (hs.contains(++num)){
+                count ++;
+                hs.remove(num);
+            }
+            
+            ans = Math.max(ans, count);
+        }

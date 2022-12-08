@@ -12,4 +12,9 @@ class Solution {
             map.computeIfAbsent(key, k -> new ArrayList<>());
             map.get(key).add(s);
         }
+          res.addAll(map.values());
         
+        return res;
+        
+    }
+}

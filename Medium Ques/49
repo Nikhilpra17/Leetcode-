@@ -7,3 +7,9 @@ class Solution {
             char[] hash = new char[26];
             for (char c : s.toCharArray()){
                 hash[c - 'a'] ++ ;
+                  }
+            String key = new String(hash);
+            map.computeIfAbsent(key, k -> new ArrayList<>());
+            map.get(key).add(s);
+        }
+        

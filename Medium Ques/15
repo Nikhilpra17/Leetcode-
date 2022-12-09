@@ -18,8 +18,7 @@ class Solution {
                     k--;
                 }
             }
-        }
-        
+        }       
         return new ArrayList<>(hs);
     }
 }

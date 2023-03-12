@@ -34,7 +34,6 @@ ___
 
 ***Advance usage of for Loop*** <br>
 ![image](https://user-images.githubusercontent.com/97670140/183578676-072216b9-6979-4859-b2d6-14016e974ebd.png)
-
 ___
 ***Iterator in ArrayList*** <br>
 ![image](https://user-images.githubusercontent.com/97670140/183990885-bd62e4f2-7b2e-436d-89a7-a8ee3c1418e3.png)

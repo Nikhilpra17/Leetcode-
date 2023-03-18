@@ -8,6 +8,6 @@ ___
 ![image](https://user-images.githubusercontent.com/97670140/226080517-ebf70e10-7d77-45c3-9fe4-8b72e39db804.png)
 
 **Break the list to half and half, check the value and sort <br>
-Divide and conquer **
+Divide and conquer**
 ___
 

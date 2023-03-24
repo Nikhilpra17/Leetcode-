@@ -15,3 +15,13 @@ ___
 
 **When we are updating the buy, we need to reset the sell(we cant sale before buying) <br>
 Edge case - [2,4,1]** 
+
+___
+
+![image](https://user-images.githubusercontent.com/97670140/227421820-0a5c76c1-3185-442b-94dc-4a08607109a7.png)
+
+**1st - Use Stack and check with the linked list  TC- O(n), SC - O(n) <br>
+2nd - Find middle of the linked list, now reverse the half of the linked list and traverse from staring and end by matching the element  TC- O(n), SC - O(n) **
+
+___
+

@@ -11,3 +11,7 @@ ___
 Divide and conquer**
 ___
 
+![image](https://user-images.githubusercontent.com/97670140/227411199-5a172d89-891a-49da-9d2d-307bf03d9e22.png)
+
+**When we are updating the buy, we need to reset the sell(we cant sale before buying) <br>
+Edge case - [2,4,1]** 

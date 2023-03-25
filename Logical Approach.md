@@ -25,3 +25,12 @@ ___
 
 ___
 
+![image](https://user-images.githubusercontent.com/97670140/227690597-de314f14-0b8e-49c7-bef5-79b527bb6be9.png)
+
+**We will be creating a Linked List and finding the loop in it, the presense of loop will determine the repeatation of the number <br>
+Creating a two pointer FAST AND SLOW , the intersection determine the presense of loop <br>
+Start the point from starting and another to the intersection , and the point they will meet is the origin of loop or the duplicate number**
+
+____
+
+

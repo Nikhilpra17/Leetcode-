@@ -33,4 +33,11 @@ ___
 
 ____
 
+![image](https://user-images.githubusercontent.com/97670140/227700897-681aa173-de01-496a-a118-02b8d8027643.png)
+
+- **Main logic is multiply the left hand side to the right hand side**
+ ![image](https://user-images.githubusercontent.com/97670140/227700998-9bff11b9-8f38-43ba-8c59-b226afa8c6ca.png)
+ 
+ ___
+
 

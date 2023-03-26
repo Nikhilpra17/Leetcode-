@@ -40,4 +40,9 @@ ____
  
  ___
 
+![image](https://user-images.githubusercontent.com/97670140/227756274-0dc52475-40ff-4c18-a7ab-e1ae23021e0a.png)
 
+- **The main logic from the Ist part is   - If we will pick the 1st house then we will pick starting from 3rd OR if we are not picking 1st then we will pick 2nd and starting picking from 4th
+- **So the equation becomes Math.max(nums[i] + dp[i-2], dp[i-1]);
+<br>
+-  **2nd part is we will make two array as the adjacent houses are in circular pattern, so 1st array will not include the last one and 2nd array will not pick the 1st one, We will return the maximum among the following.**

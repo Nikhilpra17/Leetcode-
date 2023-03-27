@@ -4,6 +4,7 @@
 - if (aMid < bMid) keep [aRight + bLeft]
 - else Keep [bRight + aLeft]**
 ___
+***
 
 ![image](https://user-images.githubusercontent.com/97670140/226080517-ebf70e10-7d77-45c3-9fe4-8b72e39db804.png)
 

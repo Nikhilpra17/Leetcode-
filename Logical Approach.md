@@ -46,3 +46,11 @@ ____
 - **So the equation becomes Math.max(nums[i] + dp[i-2], dp[i-1]);
 <br>
 -  **2nd part is we will make two array as the adjacent houses are in circular pattern, so 1st array will not include the last one and 2nd array will not pick the 1st one, We will return the maximum among the following.**
+___
+
+![image](https://user-images.githubusercontent.com/97670140/227936515-9cea58d6-618a-402b-8872-24efc83364b7.png)
+
+- Recursive brute force way
+- Make tabulation with considering the minimum value
+
+___

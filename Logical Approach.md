@@ -69,5 +69,9 @@ ___
 - We can apply the concept of dynamic programming 
 - Logic is  - We need to make dishes with the most satisfaction more time then other , so we will sort the array
 - Try to add the most time by looping throughtout the size of array.
-- We will add the positive total to the ans and put this as the limitation to 
-- 
+- We will add the positive total to the ans and put this as the limitation too.
+
+___
+***
+
+

@@ -64,3 +64,10 @@ ___
 ___
 ***
 
+![image](https://user-images.githubusercontent.com/97670140/228518543-409cef55-3e14-423d-830d-447af2f8c078.png)
+
+- We can apply the concept of dynamic programming 
+- Logic is  - We need to make dishes with the most satisfaction more time then other , so we will sort the array
+- Try to add the most time by looping throughtout the size of array.
+- We will add the positive total to the ans and put this as the limitation to 
+- 

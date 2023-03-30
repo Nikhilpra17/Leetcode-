@@ -74,4 +74,11 @@ ___
 ___
 ***
 
+![image](https://user-images.githubusercontent.com/97670140/228775511-feea9ddb-77b4-4cb5-a9ef-c506458df3e2.png)
+- we can simply stagger our two pointers by n nodes by giving the first pointer (fast) a head start before starting the second pointer (slow). Doing this will cause slow to reach the n'th node from the end at the same time that fast reaches the end.
+![image](https://user-images.githubusercontent.com/97670140/228776024-209fa6dd-93e5-4a4e-a1a6-9ac6843be04a.png)
+
+___
+***
+
 

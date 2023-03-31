@@ -93,3 +93,9 @@ ___
 
 ![image](https://user-images.githubusercontent.com/97670140/229028806-0703546b-2ede-4fc4-9108-8d4953abf681.png)
 
+- **Algo 1** 
+- Make the temp array and add its first element to sum 
+- Then backtrack and remove to play out on all possibilities 
+- when sum is equal to target add this to the arraylist and sort so that multiple possibilities will be removed. eg - (2,2,3) (2,3,2) (3,2,2) etc
+- Now to avoid adding duplicates to the final list , we will check whther Hashset (with list of integer) contains it or not , if it does not contains then add to final list and to the hashset.
+-   

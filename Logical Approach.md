@@ -81,4 +81,10 @@ ___
 ___
 ***
 
+![image](https://user-images.githubusercontent.com/97670140/229010433-f3731ca4-8aee-430c-b260-f98623f907b1.png)
+
+- To find all the possible combination of the number we need to determine it by using backtrackring which implies by making every set 
+- Algo - We will make a flag array , which help in determining whether the value is used for not because duplication is allowed 
+- we will take the value and remove it 
+- Before inserting the value into final array , we will check its length equal to the nums length and check if any other duplicate array is present or not.
 

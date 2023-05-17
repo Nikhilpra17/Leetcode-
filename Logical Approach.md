@@ -101,5 +101,5 @@ ___
 - TC -nlog(n) , SC - n
 **Algo 2**
 - We will traverse put using the index by index and subtract the element from the target till it be 0
-__
-__
+___
+___
